@@ -15,7 +15,7 @@ const projects = [
         title: "Sistema de carteleria digital",
         description:
             "Dashboard interactivo de cartelería digital con capacidades de visualización de datos y filtrado.",
-        image: "./public/projects/login insyde.png",
+        image: "./projects/login insyde.png",
         tags: ["tanstack", "Bootstrap", "React.js", "Axios", "redux","vercel"],
         demoUrl: "#",
         githubUrl: "https://github.com/PeterManga/CRUD-API-INSYDE.git",
@@ -25,7 +25,7 @@ const projects = [
         title: "Automatizacion: Web scraping",
         description:
             "Automatización en la plataforma make.com que permite obtener datos de un archivo con urls, comprobar que tienen los descuentos solicitados y enviar un correo electrónico con el resultado.",
-        image: "./projects/Buscar descuentos.png",
+        image: "./projects/Buscardescuentos.png",
         tags: ["Make.com", "request", "Google apis"],
         demoUrl: "#",
         githubUrl: "https://github.com/PeterManga/Automatizaciones/blob/master/Buscar%20descuentos.png",
