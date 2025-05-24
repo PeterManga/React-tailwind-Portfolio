@@ -5,8 +5,8 @@ const projects = [
         id: 1,
         title: "API Sistema de cartelería digital",
         description: "REST API diseñada para darle soporte a la parte frontend del mismo proyecto.",
-        image: "/src/projects/restAPI.png",
-        tags: ["Node.js", "Express", "MongoDB", "Mongoose","JST","Cloudinary"],
+        image: "/projects/restAPI.png",
+        tags: ["Node.js", "Express", "MongoDB", "Mongoose","JWT","Cloudinary"],
         demoUrl: "#",
         githubUrl: "https://github.com/PeterManga/Api-Insyde.git",
     },
@@ -14,8 +14,8 @@ const projects = [
         id: 2,
         title: "Sistema de carteleria digital",
         description:
-            "Interactive analytics dashboard with data visualization and filtering capabilities.",
-        image: "../src/projects/login insyde.png",
+            "Dashboard interactivo de cartelería digital con capacidades de visualización de datos y filtrado.",
+        image: "./public/projects/login insyde.png",
         tags: ["tanstack", "Bootstrap", "React.js", "Axios", "redux","vercel"],
         demoUrl: "#",
         githubUrl: "https://github.com/PeterManga/CRUD-API-INSYDE.git",
@@ -25,7 +25,7 @@ const projects = [
         title: "Automatizacion: Web scraping",
         description:
             "Automatización en la plataforma make.com que permite obtener datos de un archivo con urls, comprobar que tienen los descuentos solicitados y enviar un correo electrónico con el resultado.",
-        image: "../../src/projects/Buscar descuentos.png",
+        image: "./projects/Buscar descuentos.png",
         tags: ["Make.com", "request", "Google apis"],
         demoUrl: "#",
         githubUrl: "https://github.com/PeterManga/Automatizaciones/blob/master/Buscar%20descuentos.png",
@@ -55,6 +55,10 @@ export const ProjectsSection = () => {
                                     src={project.image}
                                     alt={project.title}
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    onError={(e) => {
+                                        e.target.src = "/projects/placeholder.png";
+                                        e.target.alt = "Imagen no disponible";
+                                    }}
                                 />
                             </div>
 
