@@ -3,7 +3,7 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "API insyde",
+        title: "API Sistema de cartelería digital",
         description: "REST API diseñada para darle soporte a la parte frontend del mismo proyecto.",
         image: "/src/projects/restAPI.png",
         tags: ["Node.js", "Express", "MongoDB", "Mongoose","JST","Cloudinary"],
@@ -12,23 +12,23 @@ const projects = [
     },
     {
         id: 2,
-        title: "Orbit Analytics Dashboard",
+        title: "Sistema de carteleria digital",
         description:
             "Interactive analytics dashboard with data visualization and filtering capabilities.",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrYZ8hTBz2-GU2W8sf1i0vxypsE12e-6SEIA&s",
-        tags: ["TypeScript", "D3.js", "Next.js"],
+        image: "../src/projects/login insyde.png",
+        tags: ["tanstack", "Bootstrap", "React.js", "Axios", "redux","vercel"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/PeterManga/CRUD-API-INSYDE.git",
     },
     {
         id: 3,
-        title: "E-commerce Platform",
+        title: "Automatizacion: Web scraping",
         description:
-            "Full-featured e-commerce platform with user authentication and payment processing.",
-        image: "/projects/project3.png",
-        tags: ["React", "Node.js", "Stripe"],
+            "Automatización en la plataforma make.com que permite obtener datos de un archivo con urls, comprobar que tienen los descuentos solicitados y enviar un correo electrónico con el resultado.",
+        image: "../../src/projects/Buscar descuentos.png",
+        tags: ["Make.com", "request", "Google apis"],
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/PeterManga/Automatizaciones/blob/master/Buscar%20descuentos.png",
     },
 ];
 
@@ -41,8 +41,7 @@ export const ProjectsSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent projects. Each project was carefully
-                    crafted with attention to detail, performance, and user experience.
+                    Aqui están algunos de mis proyectos, se subirán más en los próximos días
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -101,7 +100,7 @@ export const ProjectsSection = () => {
                         target="_blank"
                         href="https://github.com/PeterManga"
                     >
-                        Check My Github <ArrowRight size={16} />
+                        Comprueba mi Github <ArrowRight size={16} />
                     </a>
                 </div>
             </div>

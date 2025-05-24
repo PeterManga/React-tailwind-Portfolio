@@ -22,7 +22,6 @@ const skills = [
     { name: "N8N/Make.com", level: 85, category: "tools" },
     { name: "Data analysis", level: 65, category: "tools" },
     { name: "AI Agents", level: 70, category: "backend" },
-    { name: "REST", level: 60, category: "backend" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
