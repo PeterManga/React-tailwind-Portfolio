@@ -6,10 +6,10 @@ import { Menu, X } from "lucide-react";
 
 // Barra de navegacion
 const navItems = [
-    { name: "Inicio", href: "#Home" },
-    { name: "Sobre Mí", href: "#About" },
-    { name: "Habilidades", href: "#Skills" },
-    { name: "Contacto", href: "#Contact" }
+    { name: "Inicio", href: "#home" },
+    { name: "Sobre Mí", href: "#about" },
+    { name: "Habilidades", href: "#skills" },
+    { name: "Contacto", href: "#contact" }
 ]
 
 export const NavBar = () => {
